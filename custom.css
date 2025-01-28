@@ -15,9 +15,8 @@ body{
 }
 
 
-#mx_tabpanel_USER_ACCOUNT_TAB{
-
-margin-left: unset;
+.mx_TabbedView_tabPanel{
+  margin-left: unset;
   margin-right: 150px;
 }
 .mx_SpacePanel {
