@@ -64,3 +64,9 @@ body{
 .mx_SpaceButton_selectionWrapper{ border-color: #fff !important;}
 .mx_SpaceButton_icon::before{color:#fff;}
 
+
+
+.mx_EventTile{
+  display: flex;
+  justify-content: center;
+}
