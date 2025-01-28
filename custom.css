@@ -1,5 +1,5 @@
 body{
-  background:yellow;
+  background:blue;
 }
 
 .mx_SSOButtons {
@@ -71,6 +71,7 @@ body{
   justify-content: center !important; 
 }
 .mx_GenericEventListSummary_avatars .mx_BaseAvatar,
+.mx_ReadReceiptGroup_container .mx_BaseAvatar,
 .mx_EventTile_info .mx_BaseAvatar {
   display: none !important; 
 }
