@@ -61,6 +61,6 @@ body{
 .mx_SpaceButton_home,.mx_SpaceButton_new{
     margin-right:5px;
 }
-.mx_SpaceButton_selectionWrapper{ border-color: #fff; }
+.mx_SpaceButton_selectionWrapper{ border-color: #fff !important;}
 .mx_SpaceButton_icon::before{color:#fff;}
 
