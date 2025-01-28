@@ -1,6 +1,6 @@
-body{
+/* body{
   background:blue;
-}
+} */
 
 .mx_SSOButtons {
   display: none;
@@ -80,6 +80,24 @@ body{
 
 
 
+/* old */
+body {
+    font-weight: 300;
+    direction: rtl;
+    background-color: #e2e2e2
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea {
+    font-family: iran-yekan !important
+}
 
 .mx_EventTile[data-self=false] {
     direction: ltr
@@ -94,6 +112,10 @@ li:not([data-self=true]) .mx_SenderProfile {
     position: absolute;
     left: 25%;
     right: unset
+}
+
+.mx_EventTile[data-self=true] .mx_MessageActionBar {
+    margin-right: 25%
 }
 
 .mx_EventTile[data-self=false],
@@ -119,9 +141,12 @@ li:not([data-self=true]) .mx_SenderProfile {
 .mx_EventTile:not([data-self=true]) .mx_ReplyChain {
     text-align: left
 }
-.mx_EventTile[data-self=true] .mx_MessageActionBar {
-    margin-right: 25%
+
+.mx_RoomView_timeline_rr_enabled .mx_EventTile[data-layout=group] .mx_ThreadSummary,
+.mx_RoomView_timeline_rr_enabled .mx_EventTile[data-layout=group] .mx_ThreadSummary_icon {
+    margin-right: 0 !important
 }
+
 .mx_EventTile[data-self=true] .mx_EventTile_avatar {
     right: 0;
     left: unset
@@ -164,4 +189,214 @@ li:not([data-self=true]) .mx_SenderProfile {
     position: absolute;
     right: 20px;
     top: 7px
+}
+
+.mx_BasicMessageComposer_input {
+    direction: rtl
+}
+
+.mx_RoomView {
+    background-image: url(https://static.fanoos.app/bg-chat-tile-dark.png) !important;
+    background: #fff;
+    background-repeat: repeat;
+    background-size: 350px
+}
+
+.mx_MainSplit {
+    background: rgba(239, 234, 226, .3607843137254902)
+}
+
+.mx_EventTile_content {
+    -webkit-box-shadow: 0 1px .5px rgba(11, 20, 26, .13) !important;
+    box-shadow: 0 1px .5px rgba(11, 20, 26, .13) !important;
+    border-radius: 8px;
+    padding: 5px
+}
+
+.mx_SpacePanel {
+    background-image: unset;
+    background-color: #f0f2f5;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#17175a), to(#5a7dd3));
+    background-image: linear-gradient(#17175a, #5a7dd3)
+}
+
+.mx_RoomHeader.light-panel {
+    background-color: #181a5e;
+    border-bottom: 1px solid #ddd
+}
+
+.mx_RoomHeader_wrapper {
+    border-bottom: unset;
+    margin-bottom: 7px;
+    height: 53px !important;
+    border: 0 !important
+}
+
+.mx_RightPanel_headerButton:before,
+.mx_RoomHeader_button:before {
+    background-color: #fff
+}
+
+.mx_RoomHeader_avatar,
+.mx_RoomHeader_name {
+    color: #fff
+}
+
+.mx_MessageComposer_button:before {
+    background-color: #607d8b
+}
+
+.mx_EventTile:not([data-layout=bubble]).mx_EventTile_highlight .markdown-body .mx_EventTile_line,
+.mx_EventTile:not([data-layout=bubble]).mx_EventTile_highlight .mx_EventTile_line {
+    background-color: transparent
+}
+
+.mx_SpacePanel .mx_SpaceButton.mx_SpaceButton_active.mx_SpaceButton_narrow .mx_SpaceButton_selectionWrapper {
+    border-color: #fff !important
+}
+
+.mx_SpaceButton_icon,
+.mx_SpaceButton_icon:before {
+    -webkit-filter: brightness(3);
+    filter: brightness(3)
+}
+
+.mx_ContextualMenu_wrapper.mx_SpaceCreateMenu_wrapper {
+    right: 72px !important;
+    left: unset
+}
+
+.mx_RightPanel_headerButton:hover,
+.mx_RoomHeader_button:hover {
+    background-color: #fff !important
+}
+
+.mx_LeftPanel_filterContainer {
+    background: #181a5f;
+    margin: 0 !important;
+    padding: 13.5px !important
+}
+
+.mx_RoomHeader_nametext {
+    color: #fff
+}
+
+.mx_TabbedView_tabsOnLeft .mx_TabbedView_tabPanel {
+    margin-left: unset !important;
+    margin-right: 220px
+}
+
+.mx_HomePage_Tabs {
+    width: 100%;
+    height: 100vh
+}
+
+.mx_HomePage_Tabs .mx_HomePage_Tabs_Iframe,
+.mx_HomePage_Tabs iframe {
+    width: 100%;
+    height: calc(100vh - 50px)
+}
+
+.mx_AuthFooter {
+    display: none !important
+}
+
+.mx_Parent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px 35px;
+    color: #2e2f32;
+    border-radius: 10px;
+    background-color: hsla(0, 0%, 100%, .4117647058823529);
+    -webkit-box-shadow: 0 30px 35px 5px hsla(0, 0%, 100%, .38), 0 30px 35px 5px hsla(0, 0%, 100%, .34), 0 -35px 35px 5px hsla(0, 0%, 100%, .34);
+    box-shadow: 0 30px 35px 5px hsla(0, 0%, 100%, .38), 0 30px 35px 5px hsla(0, 0%, 100%, .34), 0 -35px 35px 5px hsla(0, 0%, 100%, .34)
+}
+
+.mx_LeftPanel .mx_LeftPanel_roomListContainer {
+    background-color: #fff !important
+}
+
+.mx_ContextualMenu_wrapper.mx_MessageComposer_Menu {
+    left: 200px;
+    right: unset !important
+}
+
+.mx_ShareType_option-icon {
+    margin-left: 12px;
+    margin-right: unset
+}
+
+.mx_EventTile:not([data-self=true]) .mx_EventTile_line {
+    background: transparent !important
+}
+
+.mx_ReadReceiptGroup_container:not(:nth-child(2)) {
+    display: none
+}
+
+.mx_CompoundDialog_header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end
+}
+
+.mx_Field_select:before {
+    right: unset !important;
+    left: 10px !important
+}
+
+.mx_Field label {
+    right: 10px !important;
+    left: unset !important
+}
+
+.mx_MessageComposer_wrapper {
+    background-color: hsla(0, 0%, 100%, .49)
+}
+
+.mx_CompleteSecurity_skip {
+    right: unset !important;
+    left: 24px !important
+}
+
+.mx_ContextualMenu_wrapper:has(.mx_EmojiPicker) {
+    position: fixed;
+    left: 10px !important;
+    right: unset !important
+}
+
+.mx_ContextualMenu_bottom:has(.mx_EmojiPicker) {
+    left: 0 !important;
+    right: unset !important
+}
+
+.mx_EventTile[data-self=true] .mx_EventTile_content {
+    margin-right: unset !important
+}
+
+.mx_EventTile[data-self=true] .mx_EventTile_line {
+    margin-right: 40px !important
+}
+
+.mx_EventTile[data-self=true] .mx_EventTile_line>a {
+    margin-right: -20px
+}
+
+.mx_AccessibleButton {
+    font-family: iran-yekan !important
 }
