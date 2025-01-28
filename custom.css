@@ -75,11 +75,11 @@
 .mx_EventTile_info .mx_BaseAvatar {
   display: none !important; 
 }
-.mx_EventTile_info .mx_EventTile_line{
-  margin-right: 100px !important; 
+.mx_EventTile_info .mx_EventTile_line {
+  margin-right: -5% !important;
+  direction: rtl;
+  width: 1000%;
 }
-
-
 
 
 
