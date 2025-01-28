@@ -50,12 +50,11 @@ body{
 .mx_RoomHeader_nametext,
 .mx_ThreadsActivityCentreButton_Icon,
 .mx_RoomHeader_info,
-.mx_SpaceButton_new,
-.mx_QuickSettingsButton::before,
-.mx_SpaceButton_icon::before {
+.mx_SpaceButton_new {
     color: #fff !important;
 }
-.mx_QuickSettingsButton::before{
+.mx_QuickSettingsButton::before,
+.mx_SpaceButton_icon::before{
   background: #fff !important;
 }
 
