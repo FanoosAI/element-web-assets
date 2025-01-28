@@ -16,7 +16,7 @@ body{
 
 
 .mx_TabbedView_tabPanel{
-  margin-left: unset;
+  margin-left: unset !important;
   margin-right: 150px;
 }
 .mx_SpacePanel {
