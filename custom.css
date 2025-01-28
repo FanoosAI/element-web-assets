@@ -75,6 +75,9 @@
 .mx_EventTile_info .mx_BaseAvatar {
   display: none !important; 
 }
+.mx_EventTile_info .mx_EventTile_line{
+  margin-right: 100px !important; 
+}
 
 
 
