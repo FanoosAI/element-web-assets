@@ -29,6 +29,10 @@ body{
 .mx_RoomHeader.light-panel {
   background-color: #181a5e;
   border-bottom: 1px solid #ddd;
+  height: 55px;
+}
+.mx_RoomHeader_truncated {
+  font-size: 14px;
 }
 
 .mx_BasicMessageComposer_input {
