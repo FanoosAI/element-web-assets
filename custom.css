@@ -66,7 +66,7 @@
 
 
 
-.mx_EventTile_info{
+/* .mx_EventTile_info{
   display: flex !important;
   justify-content: center !important; 
 }
@@ -75,7 +75,7 @@
 .mx_EventTile_info .mx_BaseAvatar {
   display: none !important; 
 }
-
+ */
 
 
 
@@ -85,18 +85,6 @@ body {
     font-weight: 300;
     direction: rtl;
     background-color: #e2e2e2
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-input,
-textarea {
-    font-family: iran-yekan !important
 }
 
 .mx_EventTile[data-self=false] {
@@ -387,7 +375,7 @@ li:not([data-self=true]) .mx_SenderProfile {
 
 .mx_EventTile[data-self=true] .mx_EventTile_content {
     margin-right: unset !important
-}
+}s
 
 .mx_EventTile[data-self=true] .mx_EventTile_line {
     margin-right: 40px !important
@@ -396,7 +384,7 @@ li:not([data-self=true]) .mx_SenderProfile {
 .mx_EventTile[data-self=true] .mx_EventTile_line>a {
     margin-right: -20px
 }
-
+/* 
 .mx_AccessibleButton {
     font-family: iran-yekan !important
-}
+} */
