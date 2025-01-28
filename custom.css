@@ -66,7 +66,7 @@ body{
 
 
 
-.mx_EventTile{
+.mx_EventTile_info{
   display: flex !important;
   justify-content: center !important; 
 }
