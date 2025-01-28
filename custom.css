@@ -53,7 +53,7 @@ body{
 .mx_SpaceButton_new,
 .mx_QuickSettingsButton::before,
 .mx_SpaceButton_icon::before {
-    color: #fff;
+    color: #fff !important;
 }
 
 .mx_SpaceButton_home,.mx_SpaceButton_new{
