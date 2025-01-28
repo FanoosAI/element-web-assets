@@ -70,6 +70,6 @@ body{
   display: flex !important;
   justify-content: center !important; 
 }
-.mx_EventTile_info .mx_BaseAvatar {
-  display: none;
+.mx_EventTile_info .mx_EventTile_avatar {
+  display: none !important; 
 }
