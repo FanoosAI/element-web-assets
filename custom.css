@@ -75,3 +75,93 @@ body{
 .mx_EventTile_info .mx_BaseAvatar {
   display: none !important; 
 }
+
+
+
+
+
+
+.mx_EventTile[data-self=false] {
+    direction: ltr
+}
+
+li:not([data-self=true]) .mx_SenderProfile {
+    text-align: left;
+    width: 100%
+}
+
+.mx_EventTile[data-self=false] .mx_MessageActionBar {
+    position: absolute;
+    left: 25%;
+    right: unset
+}
+
+.mx_EventTile[data-self=false],
+.mx_EventTile[data-self=false] .mx_ReactionsRow {
+    text-align: left
+}
+
+.mx_EventTile:not([data-self=false]) .mx_EventTile_content {
+    background-color: #d9fdd3;
+    color: #000 !important
+}
+
+.mx_EventTile .mx_EventTile_content:has(.mx_EventTile_bigEmoji) {
+    background: transparent !important;
+    -webkit-box-shadow: 0 0 0 transparent !important;
+    box-shadow: 0 0 0 transparent !important
+}
+
+.mx_EventTile:not([data-self=true]) .mx_EventTile_content {
+    background-color: #fff !important
+}
+
+.mx_EventTile:not([data-self=true]) .mx_ReplyChain {
+    text-align: left
+}
+.mx_EventTile[data-self=true] .mx_MessageActionBar {
+    margin-right: 25%
+}
+.mx_EventTile[data-self=true] .mx_EventTile_avatar {
+    right: 0;
+    left: unset
+}
+
+.mx_EventTile[data-self=true] .mx_EventTile_msgOption {
+    position: absolute !important;
+    left: 0
+}
+
+.mx_EventTile[data-self=true]>.mx_DisambiguatedProfile {
+    margin-left: unset !important;
+    margin-right: 40px
+}
+
+.mx_EventTile[data-self=true] .mx_ReplyChain {
+    border-left-width: 0;
+    border-right: 2px solid #0dbd8b
+}
+
+.mx_TextualEvent {
+    text-align: center;
+    margin-left: -60px;
+    color: #000
+}
+
+.mx_MTextBody.mx_EventTile_content {
+    max-width: 50%;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-align: right !important
+}
+
+.mx_MTextBody.mx_EventTile_content.mx_EventTile_body {
+    text-align: right !important
+}
+
+.mx_EventTile:not([data-self=false]) .mx_EventTile_line>a {
+    position: absolute;
+    right: 20px;
+    top: 7px
+}
