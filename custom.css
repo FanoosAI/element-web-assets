@@ -375,7 +375,9 @@ li:not([data-self=true]) .mx_SenderProfile {
 .mx_ContextualMenu_wrapper:has(.mx_EmojiPicker) {
     position: fixed;
     left: 10px !important;
-    right: unset !important
+    width: 100%;
+    right: unset !important;
+  
 }
 
 .mx_ContextualMenu_bottom:has(.mx_EmojiPicker) {
