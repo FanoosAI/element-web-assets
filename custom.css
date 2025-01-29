@@ -375,14 +375,18 @@ li:not([data-self=true]) .mx_SenderProfile {
     right: unset !important;
     left: 24px !important
 }
-
-.mx_ContextualMenu_wrapper:has(.mx_EmojiPicker) {
+.mx_ContextualMenu_wrapper:has(.mx_EmojiPicker):has(.mx_ContextualMenu_bottom){
+  position:fixed;
+  left:10px!important;
+  right:unset!important
+}
+.mx_ContextualMenu_wrapper:has(.mx_EmojiPicker):has(.mx_ContextualMenu_top) {
     position: fixed;
     left: 10px !important;
     width: 100%;
     right: calc(100vw - 370px) !important;
-  
 }
+
 
 .mx_ContextualMenu_bottom:has(.mx_EmojiPicker) {
     left: 0 !important;
