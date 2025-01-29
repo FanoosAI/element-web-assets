@@ -376,7 +376,7 @@ li:not([data-self=true]) .mx_SenderProfile {
     position: fixed;
     left: 10px !important;
     width: 100%;
-    right: unset !important;
+    right: calc(100vw - 370px) !important;
   
 }
 
