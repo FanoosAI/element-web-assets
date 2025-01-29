@@ -90,6 +90,14 @@
   margin-left: 10px !important;
 }
 
+.alterServer{
+  cursor: pointer;
+}
+.alterServer > div:nth-child(2) {
+  display: none !important;
+  border-radius: 0px !important;
+  height: 5px !important;
+}
 /* old */
 body {
     font-weight: 300;
