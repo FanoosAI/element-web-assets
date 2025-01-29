@@ -115,6 +115,10 @@ li:not([data-self=true]) .mx_SenderProfile {
 .mx_EventTile[data-self=true] .mx_MessageActionBar {
     margin-right: 25%
 }
+.mx_EventTile[data-self=true] .mx_EventTile_e2eIcon {
+    margin-right: -20px
+}
+
 
 .mx_EventTile[data-self=false],
 .mx_EventTile[data-self=false] .mx_ReactionsRow {
