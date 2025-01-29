@@ -50,21 +50,26 @@
 .mx_RoomHeader_nametext,
 .mx_ThreadsActivityCentreButton_Icon,
 .mx_RoomHeader_info,
+.mx_SpaceButton_icon::before,
+.mx_RoomSearch,
+.mx_RoomSearch *,
 .mx_SpaceButton_new {
     color: #fff !important;
 }
 .mx_QuickSettingsButton::before,
-.mx_SpaceButton_icon::before{
+.mx_SpaceButton_icon::before,
+.mx_LeftPanel_exploreButton::before,
+.mx_RoomSearch_icon{
   background: #fff !important;
 }
 
 .mx_SpaceButton_home,.mx_SpaceButton_new{
     margin-right:5px;
 }
-.mx_SpaceButton_selectionWrapper{ border-color: #fff !important;}
-.mx_SpaceButton_icon::before{color:#fff;}
-
-
+.mx_SpaceButton_selectionWrapper
+.mx_RoomSearch{ 
+  border-color: #fff !important;
+}
 
 .mx_EventTile_info{
   display: flex !important;
@@ -81,7 +86,9 @@
   width: 1000%;
 }
 
-
+.mx_InviteDialog_userTile_pill .mx_SearchResultAvatar{
+  margin-left: 10px !important;
+}
 
 /* old */
 body {
